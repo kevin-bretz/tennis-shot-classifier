@@ -24,3 +24,6 @@ Data/Clips/
 
 # VS Code
 .vscode/
+# Secrets — never commit
+*.env
+*.pyc
