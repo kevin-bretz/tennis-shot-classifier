@@ -64,7 +64,7 @@ yt-dlp -f bestvideo --cookies "path/to/cookies.txt" -o "filename" "URL"
 yt-dlp -f bestaudio --cookies "path/to/cookies.txt" -o "filename" "URL"
 ```
 
-> **Note on Cookies:** Some broadcasts are age- or members-restricted, so `yt-dlp` needs your YouTube login. Export a `cookies.txt` yourself (e.g. the "Get cookies.txt LOCALLY" Chrome extension) and keep it **outside the repo** — it holds your live browser session cookies, so never commit or share it (it is git-ignored here). Alternatively, download the MP4/MP3 files another way.
+> **Note on Cookies:** Some broadcasts are age- or members-restricted, so `yt-dlp` needs your YouTube login. Export a `cookies.txt` yourself (e.g. the "Get cookies.txt LOCALLY" Chrome extension) and keep it **outside the repo**, it holds your live browser session cookies, so never commit or share it (it is git-ignored here). Alternatively, download the MP4/MP3 files another way.
 
 ### 2. Extract Shots
 Run the script to automatically identify and extract short clips of individual shots from videos in `Data\Full Recording`:
