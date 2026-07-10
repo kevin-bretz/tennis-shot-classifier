@@ -158,7 +158,7 @@ def process_training_data(base_dir):
         extract_shot_clips(video_file, timestamps, output_dir, pre_shot=0.8, post_shot=1.0)
 
 def main():
-    base_dir = r"C:\Users\Kevin\Desktop\LU\Sport Data Science\Final Project\Data"
+    base_dir = "Data"
     process_training_data(base_dir)
 
 if __name__ == "__main__":

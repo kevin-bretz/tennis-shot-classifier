@@ -124,3 +124,9 @@ python validate.py "Data\poses\ abcd1234.txt"
 ## Examples
 
 Sample training results are provided in the `Example 1` and `Example 2` directories. To use one of these models for validation or further training, copy the corresponding `model.pth` file into the parent directory.
+
+## Notes for reuse
+
+The data paths in the scripts are relative to the repository root. Put your videos and clips under a `Data/` folder here and follow the pipeline in the sections above. The committed `Data/shot_annotations.json` is an empty placeholder, so add your own annotations before training.
+
+Some of this repository's early commit history was created under a previous account name. If you reuse or grade this work, set the git author identity to your own.

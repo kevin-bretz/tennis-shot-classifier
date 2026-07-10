@@ -360,9 +360,9 @@ class TennisShotLabeler:
         return labeled
 
 def main():
-    clips_dir = r"C:\Users\Kevin\Desktop\LU\Sport Data Science\Final Project\Data\Clips"
-    cropped_dir = r"C:\Users\Kevin\Desktop\LU\Sport Data Science\Final Project\Data\Shots"
-    annotations_file = r"C:\Users\Kevin\Desktop\LU\Sport Data Science\Final Project\Data\shot_annotations.json"
+    clips_dir = "Data/Clips"
+    cropped_dir = "Data/Shots"
+    annotations_file = "Data/shot_annotations.json"
     
     labeler = TennisShotLabeler(clips_dir, cropped_dir, annotations_file)
     labeler.process_clips()

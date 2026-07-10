@@ -16,7 +16,7 @@ numpy>=1.21.0
 scikit-learn>=1.0.0
 
 # Computer Vision and Image Processing
-opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
 # NOTE: For best compatibility, install OpenCV via conda: conda install opencv -c conda-forge
 ultralytics>=8.0.0
 
